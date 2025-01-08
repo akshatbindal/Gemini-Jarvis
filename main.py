@@ -15,8 +15,6 @@ import streamlit as st
 
 from google import genai
 
-GOOGLE_API_KEY = st.secrets["google_api_key"]
-
 if sys.version_info < (3, 11, 0):
     import taskgroup, exceptiongroup
 
